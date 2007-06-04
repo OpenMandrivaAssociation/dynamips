@@ -1,5 +1,5 @@
-%define pre RC1
-%define rel 0.%{pre}.2
+#define pre RC1
+%define rel 1
 
 Name:		dynamips
 Version:	0.2.7
@@ -36,7 +36,7 @@ networks or people wanting to pass their CCNA/CCNP/CCIE exams.
 
 %prep
 %setup -q %{?pre:-n %{name}-%{version}-%{pre}}
-#%patch -p0 -b .orig
+%patch -p1 -b .orig
 
 %build
 #%make
