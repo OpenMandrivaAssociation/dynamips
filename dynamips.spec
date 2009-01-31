@@ -1,9 +1,9 @@
-#define pre RC1
-%define rel 2
+%define pre RC2
+%define rel 1
 
 Name:		dynamips
-Version:	0.2.7
-Release:	%mkrel %rel
+Version:	0.2.8
+Release:	%mkrel %{?pre:0.%pre.}%rel
 License:	GPL
 Group:		Emulators
 Summary:	MIPS64 emulator able to emulate the Cisco 7200 and 3600 platforms
