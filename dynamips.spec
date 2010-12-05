@@ -1,5 +1,5 @@
 %define pre RC2
-%define rel 1
+%define rel 2
 
 Name:		dynamips
 Version:	0.2.8
