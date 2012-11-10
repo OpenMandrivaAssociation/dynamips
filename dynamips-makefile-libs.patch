@@ -1,0 +1,11 @@
+--- dynamips-0.2.8-RC2/Makefile~	2009-01-31 13:16:37.000000000 +0200
++++ dynamips-0.2.8-RC2/Makefile	2009-01-31 13:17:16.000000000 +0200
+@@ -58,7 +58,7 @@
+    PTHREAD_LIBS?=-lpthread
+ #   PCAP_LIB=-lpcap
+    CFLAGS+=-I/usr/include -I. $(PTHREAD_CFLAGS)
+-   LIBS=-L/usr/lib -L. -ldl /usr/lib/libelf.a $(PTHREAD_LIBS)
++   LIBS=-L/usr/lib -L. -ldl -lelf $(PTHREAD_LIBS)
+    DESTDIR=/usr
+ else
+ ifeq ($(shell uname -s), Darwin)
