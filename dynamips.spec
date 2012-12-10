@@ -66,3 +66,43 @@ rm -Rf %{buildroot}
 %doc %{_mandir}/man1/*
 
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.2.8-0.RC2.2mdv2011.0
++ Revision: 610330
+- rebuild
+
+* Sat Jan 31 2009 Buchan Milne <bgmilne@mandriva.org> 0.2.8-0.RC2.1mdv2010.1
++ Revision: 335777
+- New version 0.2.8-rc2
+
+* Wed Oct 29 2008 Oden Eriksson <oeriksson@mandriva.com> 0.2.7-2mdv2009.1
++ Revision: 298249
+- rebuilt against libpcap-1.0.0
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.2.7-1mdv2008.1
++ Revision: 140723
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Jun 04 2007 Buchan Milne <bgmilne@mandriva.org> 0.2.7-1mdv2008.0
++ Revision: 35016
+- New version 0.2.7 final
+
+
+* Sun Mar 11 2007 Buchan Milne <bgmilne@mandriva.org> 0.2.7-0.RC1.2mdv2007.1
++ Revision: 141251
+- New version 0.2.7-RC1
+- Add labs and images directories for use in hypervisor mode
+- Fix build on x86_64
+
+* Wed Jan 17 2007 Buchan Milne <bgmilne@mandriva.org> 0.2.6-0.RC5.1mdv2007.1
++ Revision: 109963
+- Import dynamips
+
+* Sat Jan 06 2007 Buchan Milne <bgmilne@mandriva.org> 0.2.5-1mdv
+- initial package
+
