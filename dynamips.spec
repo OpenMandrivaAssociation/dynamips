@@ -7,7 +7,7 @@ Release:	%mkrel %{?pre:0.%pre.}%rel
 License:	GPL
 Group:		Emulators
 Summary:	MIPS64 emulator able to emulate the Cisco 7200 and 3600 platforms
-URL:		http://www.ipflow.utc.fr/index.php/Cisco_7200_Simulator
+URL:		https://www.ipflow.utc.fr/index.php/Cisco_7200_Simulator
 Source:		http://www.ipflow.utc.fr/dynamips/dynamips-%{version}%{?pre:-%pre}.tar.gz
 Patch:		dynamips-makefile-libs.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
