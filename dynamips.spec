@@ -11,6 +11,7 @@ URL:		https://www.ipflow.utc.fr/index.php/Cisco_7200_Simulator
 Source:		http://www.ipflow.utc.fr/dynamips/dynamips-%{version}%{?pre:-%pre}.tar.gz
 Patch:		dynamips-makefile-libs.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires:	libpcap-devel elfutils-devel
 ExclusiveArch:	%ix86 x86_64
 
